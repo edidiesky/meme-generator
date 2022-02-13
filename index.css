@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  ;
+	}
+
+.header {
+	display: flex;
+	flex: inline-block;
+	background-color: grey;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	height: 70px;
+	width: 40%
+}
+.bottomtext {
+	position: absolute;
+	bottom: 70px;
+	right: 480px;
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.toptext {
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	position: absolute;
+	top: 100px;
+	right: 480px;
+	text-transform: uppercase;
+}
+
+.resultsection img {
+	height: 400px;
+	width: 50%;
+	margin-top: 10px;
+	border-radius: 10px;
+	
+}
+
+.resultsection {
+	align-items: center;
+	justify-content: center;
+
+}
+.Memegenerator {
+	align-items: center;
+	text-align: center;
+	
+
+}
+
+.Memegenerator button {
+	font-size: 20px;
+	color: steelblue;
+	border-radius: 5px;
+	border: 1px dotted steelblue;
+}
+.Memegenerator button:hover {
+	background-color: green;
+	color: white;
+}
+
+.Memegenerator input {
+	border: 1px dotted steelblue;
+	font-size: 20px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 6px;
+
+}
+
+.Memegenerator input:hover {
+	background-color: green;
+	color: white;
+}
+
+.header p {
+	color: white;
+	font-size: 30px;
+	letter-spacing: 2px;
+	font-weight: bolder;
+
+}
